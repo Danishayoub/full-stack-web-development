@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin:0;
+        }
+        body{
+            background-color:  rgb(83 93 120);
+        }
+        .container{
+            background-color: aqua;
+            border:2px solid black;
+            /* we can set  margin/padding for top,right,bottom,left like this   
+            padding-left: 30px;
+            padding-right: 400px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            padding: 24px 65px 64px 46px;
+
+            margin-top: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            margin-left: 30px;*/
+            padding: 35px 46px;/* padding: y(top/bottom) x(left/right); */
+            margin: 2px;
+            border-radius: 23px;
+            width: 533px;
+        }
+
+    </style>
+</head>
+<body>
+ <div class="container">
+    <h3>This is my heading</h3>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi? Accusantium itaque corporis suscipit molestias accusamus quaerat, illum nulla sapiente, sit obcaecati minima doloremque, ad maxime ullam maiores quos nobis?</p>
+</div>
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi? Accusantium itaque corporis suscipit molestias accusamus quaerat, illum nulla sapiente, sit obcaecati minima doloremque, ad maxime ullam maiores quos nobis?</p>
+</div>
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi? Accusantium itaque corporis suscipit molestias accusamus quaerat, illum nulla sapiente, sit obcaecati minima doloremque, ad maxime ullam maiores quos nobis?</p>
+</div>
+    
+</body>
+</html>

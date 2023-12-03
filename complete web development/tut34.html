@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and Text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            background-color: antiquewhite;
+            /* border: 2px solid red; */
+            padding: 23px 24px;
+            margin: 13px 10px;
+
+            /* box-shadow: offset-x and offset-y color; */
+            /* box-shadow: 13px 10px red; */
+            /* box-shadow: -13px -10px red; */
+
+            /* box-shadow: offset-x and offset-y blur-radius color; */
+            /* box-shadow: -13px -10px 20px red; */
+
+            /* box-shadow: offset-x and offset-y blur-radius spread-radius color; */
+            /* box-shadow: -13px -10px 20px 10px rgba(53, 135, 135, 0.5); */
+
+            box-shadow: inset 10px 13px green;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h3>card1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quaerat corporis reprehenderit ducimus,
+                non nesciunt commodi maiores excepturi deserunt voluptas corrupti omnis culpa! Officia aliquam eligendi
+                officiis, numquam labore totam assumenda blanditiis exercitationem beatae!</p>
+        </div>
+        <div class="card" id="card2">
+            <h3>card2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quaerat corporis reprehenderit ducimus,
+                non nesciunt commodi maiores excepturi deserunt voluptas corrupti omnis culpa! Officia aliquam eligendi
+                officiis, numquam labore totam assumenda blanditiis exercitationem beatae!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h3>card3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quaerat corporis reprehenderit ducimus,
+                non nesciunt commodi maiores excepturi deserunt voluptas corrupti omnis culpa! Officia aliquam eligendi
+                officiis, numquam labore totam assumenda blanditiis exercitationem beatae!</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

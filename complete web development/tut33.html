@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After pseudo Selector</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           
+        }
+        header::before{
+            background: url('http://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+
+
+        }
+
+        .navigation {
+            display: flex;
+            font-size: 20px;
+
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 24px;
+        }
+
+        section {
+            /* border: 2px solid red; */
+            margin: 3px 23px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* section::after{
+            content: "This is a content";
+        } */
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Service</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to coding world </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, esse nihil dolore tempora rem ratione dolorem
+            quam quae sed quia odit dolor vero quis illum! Iusto similique nam aliquid iste nisi fugiat, id ullam! Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Officiis, soluta atque obcaecati dolores reprehenderit
+            culpa quia. Repellat blanditiis illum quidem est! At eveniet accusantium eos dolore tenetur beatae hic,
+            vitae maiores vero ut expedita ipsa eius, rem laborum impedit consequatur nam ad veritatis quae harum ex
+            possimus repudiandae modi iure. Repudiandae enim illo dignissimos porro quibusdam necessitatibus veritatis
+            corrupti magni. Cum fugiat voluptas sapiente dignissimos id excepturi earum ipsa voluptatum cupiditate modi
+            odit, repellendus, molestiae necessitatibus aspernatur eveniet nisi pariatur. Veritatis debitis ad saepe
+            odio dolore, consequatur culpa tenetur reiciendis quos quo maiores aspernatur at voluptates magni molestias!
+            Quasi laudantium mollitia minima sequi maxime necessitatibus iure fugit, eius rem repellat. Nostrum
+            molestiae eligendi impedit aliquam. Hic, nesciunt, dolorum exercitationem repudiandae quisquam, consequuntur
+            debitis itaque porro laborum iusto quia aliquid! Rem distinctio nemo dolorem modi soluta quia corrupti ex
+            veniam vitae? Suscipit, tempore minus doloribus amet voluptate labore pariatur facere, ratione facilis
+            aspernatur quo aliquid voluptatibus omnis necessitatibus dolorum itaque dicta, et aut ipsum. Temporibus
+            culpa mollitia dignissimos facilis exercitationem totam id sequi reiciendis deleniti quod expedita
+            consectetur debitis eveniet praesentium dolorum atque cum accusamus laborum sunt iusto eligendi, quam
+            doloribus doloremque eius. Corrupti totam quam laborum illo est hic modi minima minus unde provident libero
+            optio vel nulla nam animi ut fugiat maiores ipsam, at rem aliquid pariatur aut. Expedita dolor sit alias rem
+            quisquam dolore consectetur officia, quasi voluptas nihil doloribus ullam pariatur itaque sunt neque. Quia
+            eum officiis quibusdam illo cumque magnam minima eos, numquam obcaecati sit consectetur porro, quis dolore
+            cum, nihil laudantium. Voluptatibus, nulla perferendis porro molestias inventore libero eos quibusdam nihil,
+            ea, ab corrupti ducimus. Tenetur natus facilis dignissimos ipsa unde, eos mollitia magni voluptatibus
+            tempora, beatae illum aliquid? Consequatur voluptatem veritatis necessitatibus eaque maiores, dolorem fuga
+            commodi, exercitationem autem obcaecati cupiditate aliquam odio labore laboriosam neque cumque. Nulla
+            aliquid nisi adipisci. Nostrum dolorum eius doloribus molestiae dicta nemo, asperiores, qui nulla iste
+            aperiam laborum fuga quia nihil hic doloremque praesentium aut libero consequuntur. Molestias, inventore.
+            Eos dignissimos, ratione excepturi amet voluptatibus consequuntur, aliquid sit neque aspernatur saepe,
+            repudiandae unde placeat optio alias nulla aut libero modi assumenda tempora laboriosam! Neque modi
+            repudiandae et non praesentium porro ipsum sed unde mollitia nesciunt similique sunt quos reprehenderit
+            ratione saepe cumque, quod obcaecati fugit inventore dignissimos. Eligendi eos rem excepturi velit dolorum
+            laboriosam facilis, accusamus nisi nobis odit quis iure iste perferendis ex culpa amet repellat architecto
+            ullam quibusdam consequuntur quae dolorem? Provident, quisquam explicabo quod id quam, vero est velit animi
+            ipsam vitae, cupiditate sapiente ipsa voluptatibus dolorum nobis numquam eius iusto. </p>
+    </section>
+    
+
+</body>
+
+</html>
